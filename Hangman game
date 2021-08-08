@@ -302,7 +302,7 @@ while not x :
       display[position] = chosen_word[position]
       
   if guess not in chosen_word :
-    print(f"You have entered {guess}, it's wrong letter.")
+    print(f"You have entered {guess}, it's wrong letter you lose life.")
     lives -= 1
     if lives == 0 :
       x = True
